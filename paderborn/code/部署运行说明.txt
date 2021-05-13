@@ -1,0 +1,26 @@
+
+训练集与测试集数据处理流程：
+1.smote处理.py
+2.特征提取1.py
+3.RF.py
+
+testdatashuffle_2.csv数据集处理流程：
+1.特征提取.py
+得到特征文件后即可输入到模型进行分类
+
+smote处理.py ——对训练集原始信号进行过采样化处理
+用到主要库：
+pandas——Version:1.2.3
+
+特征提取1.py——直接对预处理后的数据集进行特征提取
+用到的库：
+pandas——Version:1.2.3
+numpy——Version:1.19.2
+scipy——1.6.1
+
+RF.py——对训练集进行训练，并用测试集通过准确率等系数进行反馈。
+用到的库：
+pandas——Version:1.2.3
+numpy——Version:1.19.2
+
+
